@@ -2,7 +2,7 @@
   <div>
     <comp-header />
     <div>
-
+      Hello
     </div>
     <comp-footer />
   </div>
