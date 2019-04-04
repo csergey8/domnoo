@@ -1,6 +1,6 @@
 <template>
   <div>
-    <carousel :perPage="1" :mouse-drag="true" :paginationEnabled="false">
+    <carousel :perPage="1" :mouse-drag="true" :paginationEnabled="false" autoplay="true" loop="true">
       <slide v-for="(slide, i) in slides" :key="i" >
         <div 
           class="slider_bck"
