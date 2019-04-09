@@ -4,6 +4,7 @@
     <div>
       <comp-featured/>
       <comp-menu />
+      <comp-call-us />
     </div>
     <comp-footer />
   </div>
@@ -15,6 +16,7 @@ import compHeader from './components/header_footer/Header.vue';
 import compFooter from './components/header_footer/Footer.vue';
 import compFeatured from './components/featured/index.vue';
 import compMenu from './components/menu/index.vue';
+import compCallUs from './components/call_us/index.vue';
 
 
 export default {
@@ -22,7 +24,8 @@ export default {
     compHeader,
     compFooter,
     compFeatured,
-    compMenu
+    compMenu,
+    compCallUs
   }
 }
 </script>
